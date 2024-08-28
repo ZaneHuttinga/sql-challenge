@@ -42,16 +42,3 @@ CREATE TABLE dept_manager(
 	FOREIGN KEY (emp_no) REFERENCES employees(emp_no),
 	PRIMARY KEY (dept_no, emp_no)
 );
-
-
-
-DROP TABLE dept_manager;
-DROP TABLE dept_emp;
-DROP TABLE salaries;
-DROP TABLE departments;
-DROP TABLE employees;
-DROP TABLE titles;
-
-
-
-SELECT * FROM titles;

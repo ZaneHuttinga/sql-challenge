@@ -22,5 +22,5 @@ This image file contains an Entity Relationship Diagram showing the relationship
 
 ### data
 
-This folder contains six CSV files with the raw data used in the two SQL files.
+This folder contains the six CSV files with the raw data used in the two SQL files.
 
