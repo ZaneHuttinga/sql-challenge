@@ -10,8 +10,8 @@ CREATE TABLE employees(
 	emp_title_id VARCHAR(5) NOT NULL,
 	FOREIGN KEY (emp_title_id) REFERENCES titles(title_id),
 	birth_date VARCHAR(10),
-	first_name VARCHAR(15),
-	last_name VARCHAR(15),
+	first_name VARCHAR(20),
+	last_name VARCHAR(20),
 	sex VARCHAR(1),
 	hire_date VARCHAR(10)
 );
@@ -43,13 +43,15 @@ CREATE TABLE dept_manager(
 	PRIMARY KEY (dept_no, emp_no)
 );
 
---DROP TABLE titles;
---DROP TABLE employees;
---DROP TABLE departments;
---DROP TABLE salaries;
---DROP TABLE dept_emp;
---DROP TABLE dept_manager;
+
+
+DROP TABLE dept_manager;
+DROP TABLE dept_emp;
+DROP TABLE salaries;
+DROP TABLE departments;
+DROP TABLE employees;
+DROP TABLE titles;
 
 
 
---SELECT * FROM titles;
+SELECT * FROM titles;
